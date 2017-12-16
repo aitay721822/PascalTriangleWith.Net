@@ -56,17 +56,17 @@ C(m,n)=C(m-1,n)+C(m,n-1)<br>
 </blockquote>
 所以我們如果這樣寫演算法
 <blockquote>
-  private int pascal(int n, int m)<br>
-  {<br>
-    if ((m == 0 || n == 0))<br>
-    {<br>
-      return 1;<br>
-    }<br>
-    else<br>
-    {<br>
-      return pascal(n - 1, m) + pascal(n, m - 1);<br>
-    }<br>
-  }<br>
+            int pascal(int n, int m)<br>
+            {<br>
+                if ((m == 0 || n == 0))<br>
+                {<br>
+                    return 1;<br>
+                }<br>
+                else<br>
+                {<br>
+                    return pascal(n - 1, m) + pascal(n, m - 1);<br>
+                }<br>
+            }<br>
 </blockquote>
 就可以解出我們巴斯卡三角形處於n,m位置的值呢<br>
 為什麼呢這樣看一下詳解<br>
