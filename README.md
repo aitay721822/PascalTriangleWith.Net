@@ -20,7 +20,7 @@ c#　巴斯卡三角形<br>
 </blockquote>
 規律是
 <blockquote>
-C(m,0)=1 & C(0,n)=1<br>
+C(0~m,0)=1 & C(0,0~n)=1<br>
 C(m,n)=C(m-1,n)+C(m,n-1)<br>
 </blockquote>
 到這邊已經想到要怎麼做了嗎?
