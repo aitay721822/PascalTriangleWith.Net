@@ -57,7 +57,7 @@ namespace PasCalTriangle
                 int max = 1;
                 for (int i = 0; i < Pascal.GetLength(0); i++)
                 {
-                    for (int j = 0; j < Pascal.GetLength(1) - i; j++)
+                    for (int j = 0; j < Pascal.GetLength(1) - i - 1; j++)
                     {
                         if (max < Pascal[i, j].ToString().Length)
                             max = Pascal[i, j].ToString().Length;
